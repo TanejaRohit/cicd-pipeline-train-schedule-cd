@@ -31,7 +31,7 @@ pipeline {
 							execCommand: 'sudo /usr/bin/systemctl stop train-schedule && rm -rf /opt/train-schedule/'
 						)
 					]
-				])
+				)]
         }
     }
 }
